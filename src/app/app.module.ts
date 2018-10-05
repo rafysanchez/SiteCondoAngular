@@ -17,6 +17,14 @@ import { HomeComponent } from './home';
 import { LoginComponent } from './login';
 import { RegisterComponent } from './register';
 import { HeaderComponent } from './header/header.component';
+import { MoradoresvisitantesComponent } from './moradoresvisitantes/moradoresvisitantes.component';
+import { VeiculosComponent } from './veiculos/veiculos.component';
+import { RecadosComponent } from './recados/recados.component';
+import { EventosComponent } from './eventos/eventos.component';
+import { OcorrenciasComponent } from './ocorrencias/ocorrencias.component';
+import { RelatoriosComponent } from './relatorios/relatorios.component';
+import { SobreComponent } from './sobre/sobre.component';
+import { AjudaComponent } from './ajuda/ajuda.component';
 
 @NgModule({
     imports: [
@@ -31,7 +39,15 @@ import { HeaderComponent } from './header/header.component';
         HomeComponent,
         LoginComponent,
         RegisterComponent,
-        HeaderComponent
+        HeaderComponent,
+        MoradoresvisitantesComponent,
+        VeiculosComponent,
+        RecadosComponent,
+        EventosComponent,
+        OcorrenciasComponent,
+        RelatoriosComponent,
+        SobreComponent,
+        AjudaComponent
     ],
     providers: [
         AuthGuard,
